@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAS_CargoPay.Application", "MSAS_CargoPay.Application\MSAS_CargoPay.Application.csproj", "{40B1E371-9FBA-4C4E-B47C-48B7552ABBA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAS_CargoPay.Core", "MSAS_CargoPay.Core\MSAS_CargoPay.Core.csproj", "{898EB943-5B0A-4130-839E-1862FFBFBBA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAS_CargoPay.Infrastracture", "MSAS_CargoPay.Infrastracture\MSAS_CargoPay.Infrastracture.csproj", "{BA313FE6-6A55-42A2-8F26-526914B276C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAS_CargoPay.API", "MSAS_CargoPay.API\MSAS_CargoPay.API.csproj", "{AD8A4B8E-C48D-4AE6-9683-57BD7B984720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSAS_CargoPay.UnitTests", "MSAS_CargoPay.UnitTests\MSAS_CargoPay.UnitTests.csproj", "{5481F734-3C8A-44C6-AE79-A1081617A7A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40B1E371-9FBA-4C4E-B47C-48B7552ABBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B1E371-9FBA-4C4E-B47C-48B7552ABBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B1E371-9FBA-4C4E-B47C-48B7552ABBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B1E371-9FBA-4C4E-B47C-48B7552ABBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898EB943-5B0A-4130-839E-1862FFBFBBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898EB943-5B0A-4130-839E-1862FFBFBBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898EB943-5B0A-4130-839E-1862FFBFBBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898EB943-5B0A-4130-839E-1862FFBFBBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA313FE6-6A55-42A2-8F26-526914B276C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA313FE6-6A55-42A2-8F26-526914B276C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA313FE6-6A55-42A2-8F26-526914B276C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA313FE6-6A55-42A2-8F26-526914B276C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8A4B8E-C48D-4AE6-9683-57BD7B984720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8A4B8E-C48D-4AE6-9683-57BD7B984720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8A4B8E-C48D-4AE6-9683-57BD7B984720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8A4B8E-C48D-4AE6-9683-57BD7B984720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5481F734-3C8A-44C6-AE79-A1081617A7A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5481F734-3C8A-44C6-AE79-A1081617A7A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5481F734-3C8A-44C6-AE79-A1081617A7A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5481F734-3C8A-44C6-AE79-A1081617A7A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDF5AB5C-62B1-4A0A-A344-239A1F3660FF}
+	EndGlobalSection
+EndGlobal

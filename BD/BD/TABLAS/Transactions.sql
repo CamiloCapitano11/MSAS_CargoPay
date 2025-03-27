@@ -1,0 +1,9 @@
+CREATE TABLE Transactions (
+    TransactionId INT IDENTITY(1,1) PRIMARY KEY,
+    CardId INT NOT NULL,
+    Amount DECIMAL(18,2) NOT NULL,
+    Fee DECIMAL(5,2) NOT NULL,
+    FinalAmount DECIMAL(18,2) NOT NULL,
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (CardId) REFERENCES Cards(CardId)
+);

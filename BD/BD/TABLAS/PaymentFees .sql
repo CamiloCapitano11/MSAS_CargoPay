@@ -1,0 +1,5 @@
+CREATE TABLE PaymentFees (
+    FeeId INT IDENTITY(1,1) PRIMARY KEY,
+    FeeValue DECIMAL(5,2) NOT NULL,
+    AppliedAt DATETIME DEFAULT GETDATE()
+);
